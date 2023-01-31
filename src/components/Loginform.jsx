@@ -6,7 +6,7 @@ import { Card, Input, Form, Button } from './form'
 
 export default function Loginform() {
   return (
-    <Card class="card">
+    <Card class="card-component">
       <Form class="form">
         <Input class="email" type="email" placeholder="Email"/>
         <Input class="password" type="password" placeholder="Password"/>
